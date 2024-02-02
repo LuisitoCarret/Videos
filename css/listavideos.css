@@ -1,0 +1,9 @@
+.botones button {
+      margin : 10px; 
+}
+
+@media (max-width: 600px) {
+    .contenedor-video {
+      margin-bottom: 10px;
+    }
+}

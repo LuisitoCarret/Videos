@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/icon-192x192.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="./css/estiloIndex.css">
+    <link rel="stylesheet" href="./css/estiloMenu.css">
+  </head>
+  <body>
+    <div id="idContenidorIndex">
+      <header id="EncabezadoIndex">
+        <h1>Mi Pagina Web && APP</h1>
+      </header>
+      <nav id="idMenuIndex">
+        <ul class="topnav">
+          <li class="active">
+            <a
+              href="./Paginas/Inicio.html"
+              target="iframeContenido"
+              class="active"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a href="./Paginas/Ejemplo1.html" target="iframeContenido"
+              >Ejemplo 1</a
+            >
+          </li>
+          <li>
+            <a href="./Paginas/Lista_Videos.html" target="iframeContenido"
+              >Lista Videos</a
+            >
+          </li>
+          <li class="right">
+          </li>
+        </ul>
+      </nav>
+      <section id="idContenidoIndex">
+        <iframe
+          src="./Paginas/Inicio.html"
+          frameborder="0"
+          name="iframeContenido"
+          height="478px"
+          width="100%"
+        ></iframe>
+      </section>
+      <footer id="idPieIndex"></footer>
+      <script src="regist_ServiceWorker.js"></script>
+  </body>
+</html>
